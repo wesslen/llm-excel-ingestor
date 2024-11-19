@@ -1,0 +1,949 @@
+{
+  "name": "balance-sheet",
+  "dimensions": "A1:C61",
+  "cells": {
+    "A1": {
+      "value": "Tech Corp Balance Sheet - As of Dec 31, 2024",
+      "type": "s"
+    },
+    "B1": {
+      "value": "",
+      "type": "s"
+    },
+    "C1": {
+      "value": "",
+      "type": "s"
+    },
+    "A2": {
+      "value": "",
+      "type": "s"
+    },
+    "B2": {
+      "value": "",
+      "type": "s"
+    },
+    "C2": {
+      "value": "",
+      "type": "s"
+    },
+    "A3": {
+      "value": "ASSETS",
+      "type": "s"
+    },
+    "B3": {
+      "value": "",
+      "type": "s"
+    },
+    "C3": {
+      "value": "",
+      "type": "s"
+    },
+    "A4": {
+      "value": "Current Assets",
+      "type": "s"
+    },
+    "B4": {
+      "value": "",
+      "type": "s"
+    },
+    "C4": {
+      "value": "",
+      "type": "s"
+    },
+    "A5": {
+      "value": "Cash and Cash Equivalents",
+      "type": "s"
+    },
+    "C5": {
+      "value": "=SUM(C6:C8)",
+      "type": "f"
+    },
+    "A6": {
+      "value": "",
+      "type": "s"
+    },
+    "B6": {
+      "value": "Checking Account",
+      "type": "s"
+    },
+    "C6": {
+      "value": "250000",
+      "type": "n"
+    },
+    "A7": {
+      "value": "",
+      "type": "s"
+    },
+    "B7": {
+      "value": "Savings Account",
+      "type": "s"
+    },
+    "C7": {
+      "value": "400000",
+      "type": "n"
+    },
+    "A8": {
+      "value": "",
+      "type": "s"
+    },
+    "B8": {
+      "value": "Petty Cash",
+      "type": "s"
+    },
+    "C8": {
+      "value": "100000",
+      "type": "n"
+    },
+    "A9": {
+      "value": "",
+      "type": "s"
+    },
+    "B9": {
+      "value": "",
+      "type": "s"
+    },
+    "C9": {
+      "value": "",
+      "type": "s"
+    },
+    "A10": {
+      "value": "Accounts Receivable",
+      "type": "s"
+    },
+    "C10": {
+      "value": "=SUM(C11:C13)",
+      "type": "f"
+    },
+    "A11": {
+      "value": "",
+      "type": "s"
+    },
+    "B11": {
+      "value": "Customer A",
+      "type": "s"
+    },
+    "C11": {
+      "value": "150000",
+      "type": "n"
+    },
+    "A12": {
+      "value": "",
+      "type": "s"
+    },
+    "B12": {
+      "value": "Customer B",
+      "type": "s"
+    },
+    "C12": {
+      "value": "130000",
+      "type": "n"
+    },
+    "A13": {
+      "value": "",
+      "type": "s"
+    },
+    "B13": {
+      "value": "Customer C",
+      "type": "s"
+    },
+    "C13": {
+      "value": "100000",
+      "type": "n"
+    },
+    "A14": {
+      "value": "",
+      "type": "s"
+    },
+    "B14": {
+      "value": "",
+      "type": "s"
+    },
+    "C14": {
+      "value": "",
+      "type": "s"
+    },
+    "A15": {
+      "value": "Inventory",
+      "type": "s"
+    },
+    "C15": {
+      "value": "=SUM(C16:C18)",
+      "type": "f"
+    },
+    "A16": {
+      "value": "",
+      "type": "s"
+    },
+    "B16": {
+      "value": "Raw Materials",
+      "type": "s"
+    },
+    "C16": {
+      "value": "200000",
+      "type": "n"
+    },
+    "A17": {
+      "value": "",
+      "type": "s"
+    },
+    "B17": {
+      "value": "Work in Progress",
+      "type": "s"
+    },
+    "C17": {
+      "value": "170000",
+      "type": "n"
+    },
+    "A18": {
+      "value": "",
+      "type": "s"
+    },
+    "B18": {
+      "value": "Finished Goods",
+      "type": "s"
+    },
+    "C18": {
+      "value": "100000",
+      "type": "n"
+    },
+    "A19": {
+      "value": "",
+      "type": "s"
+    },
+    "B19": {
+      "value": "",
+      "type": "s"
+    },
+    "C19": {
+      "value": "",
+      "type": "s"
+    },
+    "A20": {
+      "value": "Total Current Assets",
+      "type": "s"
+    },
+    "C20": {
+      "value": "=C5+C10+C15",
+      "type": "f"
+    },
+    "A21": {
+      "value": "",
+      "type": "s"
+    },
+    "B21": {
+      "value": "",
+      "type": "s"
+    },
+    "C21": {
+      "value": "",
+      "type": "s"
+    },
+    "A22": {
+      "value": "Fixed Assets",
+      "type": "s"
+    },
+    "B22": {
+      "value": "",
+      "type": "s"
+    },
+    "C22": {
+      "value": "",
+      "type": "s"
+    },
+    "A23": {
+      "value": "Property and Equipment",
+      "type": "s"
+    },
+    "C23": {
+      "value": "=SUM(C24:C26)",
+      "type": "f"
+    },
+    "A24": {
+      "value": "",
+      "type": "s"
+    },
+    "B24": {
+      "value": "Buildings",
+      "type": "s"
+    },
+    "C24": {
+      "value": "800000",
+      "type": "n"
+    },
+    "A25": {
+      "value": "",
+      "type": "s"
+    },
+    "B25": {
+      "value": "Machinery",
+      "type": "s"
+    },
+    "C25": {
+      "value": "300000",
+      "type": "n"
+    },
+    "A26": {
+      "value": "",
+      "type": "s"
+    },
+    "B26": {
+      "value": "Vehicles",
+      "type": "s"
+    },
+    "C26": {
+      "value": "100000",
+      "type": "n"
+    },
+    "A27": {
+      "value": "",
+      "type": "s"
+    },
+    "B27": {
+      "value": "",
+      "type": "s"
+    },
+    "C27": {
+      "value": "",
+      "type": "s"
+    },
+    "A28": {
+      "value": "Less: Accumulated Depreciation",
+      "type": "s"
+    },
+    "C28": {
+      "value": "=SUM(C29:C31)",
+      "type": "f"
+    },
+    "A29": {
+      "value": "",
+      "type": "s"
+    },
+    "B29": {
+      "value": "Buildings Depreciation",
+      "type": "s"
+    },
+    "C29": {
+      "value": "=-C24*0.05",
+      "type": "f"
+    },
+    "A30": {
+      "value": "",
+      "type": "s"
+    },
+    "B30": {
+      "value": "Machinery Depreciation",
+      "type": "s"
+    },
+    "C30": {
+      "value": "=-C25*0.1",
+      "type": "f"
+    },
+    "A31": {
+      "value": "",
+      "type": "s"
+    },
+    "B31": {
+      "value": "Vehicles Depreciation",
+      "type": "s"
+    },
+    "C31": {
+      "value": "=-C26*0.2",
+      "type": "f"
+    },
+    "A32": {
+      "value": "",
+      "type": "s"
+    },
+    "B32": {
+      "value": "",
+      "type": "s"
+    },
+    "C32": {
+      "value": "",
+      "type": "s"
+    },
+    "A33": {
+      "value": "Net Fixed Assets",
+      "type": "s"
+    },
+    "C33": {
+      "value": "=C23+C28",
+      "type": "f"
+    },
+    "A34": {
+      "value": "",
+      "type": "s"
+    },
+    "B34": {
+      "value": "",
+      "type": "s"
+    },
+    "C34": {
+      "value": "",
+      "type": "s"
+    },
+    "A35": {
+      "value": "TOTAL ASSETS",
+      "type": "s"
+    },
+    "C35": {
+      "value": "=C33+C20",
+      "type": "f"
+    },
+    "A36": {
+      "value": "LIABILITIES AND EQUITY",
+      "type": "s"
+    },
+    "B36": {
+      "value": "",
+      "type": "s"
+    },
+    "C36": {
+      "value": "",
+      "type": "s"
+    },
+    "A37": {
+      "value": "Current Liabilities",
+      "type": "s"
+    },
+    "B37": {
+      "value": "",
+      "type": "s"
+    },
+    "C37": {
+      "value": "",
+      "type": "s"
+    },
+    "A38": {
+      "value": "Accounts Payable",
+      "type": "s"
+    },
+    "C38": {
+      "value": "=SUM(C39:C41)",
+      "type": "f"
+    },
+    "A39": {
+      "value": "",
+      "type": "s"
+    },
+    "B39": {
+      "value": "Supplier A",
+      "type": "s"
+    },
+    "C39": {
+      "value": "120000",
+      "type": "n"
+    },
+    "A40": {
+      "value": "",
+      "type": "s"
+    },
+    "B40": {
+      "value": "Supplier B",
+      "type": "s"
+    },
+    "C40": {
+      "value": "90000",
+      "type": "n"
+    },
+    "A41": {
+      "value": "",
+      "type": "s"
+    },
+    "B41": {
+      "value": "Supplier C",
+      "type": "s"
+    },
+    "C41": {
+      "value": "80000",
+      "type": "n"
+    },
+    "A42": {
+      "value": "",
+      "type": "s"
+    },
+    "B42": {
+      "value": "",
+      "type": "s"
+    },
+    "C42": {
+      "value": "",
+      "type": "s"
+    },
+    "A43": {
+      "value": "Short-term Debt",
+      "type": "s"
+    },
+    "C43": {
+      "value": "150000",
+      "type": "n"
+    },
+    "A44": {
+      "value": "Accrued Expenses",
+      "type": "s"
+    },
+    "C44": {
+      "value": "75000",
+      "type": "n"
+    },
+    "A45": {
+      "value": "",
+      "type": "s"
+    },
+    "B45": {
+      "value": "",
+      "type": "s"
+    },
+    "C45": {
+      "value": "",
+      "type": "s"
+    },
+    "A46": {
+      "value": "Total Current Liabilities",
+      "type": "s"
+    },
+    "C46": {
+      "value": "=C38+C43+C44",
+      "type": "f"
+    },
+    "A47": {
+      "value": "",
+      "type": "s"
+    },
+    "B47": {
+      "value": "",
+      "type": "s"
+    },
+    "C47": {
+      "value": "",
+      "type": "s"
+    },
+    "A48": {
+      "value": "Long-term Liabilities",
+      "type": "s"
+    },
+    "B48": {
+      "value": "",
+      "type": "s"
+    },
+    "C48": {
+      "value": "",
+      "type": "s"
+    },
+    "A49": {
+      "value": "Long-term Debt",
+      "type": "s"
+    },
+    "C49": {
+      "value": "800000",
+      "type": "n"
+    },
+    "A50": {
+      "value": "",
+      "type": "s"
+    },
+    "B50": {
+      "value": "",
+      "type": "s"
+    },
+    "C50": {
+      "value": "",
+      "type": "s"
+    },
+    "A51": {
+      "value": "Total Liabilities",
+      "type": "s"
+    },
+    "C51": {
+      "value": "=C49+C46",
+      "type": "f"
+    },
+    "A52": {
+      "value": "",
+      "type": "s"
+    },
+    "B52": {
+      "value": "",
+      "type": "s"
+    },
+    "C52": {
+      "value": "",
+      "type": "s"
+    },
+    "A53": {
+      "value": "Shareholders' Equity",
+      "type": "s"
+    },
+    "B53": {
+      "value": "",
+      "type": "s"
+    },
+    "C53": {
+      "value": "",
+      "type": "s"
+    },
+    "A54": {
+      "value": "Common Stock",
+      "type": "s"
+    },
+    "C54": {
+      "value": "1000000",
+      "type": "n"
+    },
+    "A55": {
+      "value": "Retained Earnings",
+      "type": "s"
+    },
+    "C55": {
+      "value": "395000",
+      "type": "n"
+    },
+    "A56": {
+      "value": "",
+      "type": "s"
+    },
+    "B56": {
+      "value": "",
+      "type": "s"
+    },
+    "C56": {
+      "value": "",
+      "type": "s"
+    },
+    "A57": {
+      "value": "Total Shareholders' Equity",
+      "type": "s"
+    },
+    "C57": {
+      "value": "=C54+C55",
+      "type": "f"
+    },
+    "A58": {
+      "value": "",
+      "type": "s"
+    },
+    "B58": {
+      "value": "",
+      "type": "s"
+    },
+    "C58": {
+      "value": "",
+      "type": "s"
+    },
+    "A59": {
+      "value": "TOTAL LIABILITIES AND EQUITY",
+      "type": "s"
+    },
+    "C59": {
+      "value": "=C57+C51",
+      "type": "f"
+    },
+    "A60": {
+      "value": "",
+      "type": "s"
+    },
+    "B60": {
+      "value": "",
+      "type": "s"
+    },
+    "C60": {
+      "value": "",
+      "type": "s"
+    },
+    "A61": {
+      "value": "Balance Check",
+      "type": "s"
+    },
+    "C61": {
+      "value": "=IF(C35=C59,\"Balance Sheet Balanced\",\"Not Balanced\")",
+      "type": "f"
+    }
+  },
+  "formulas": {
+    "C5": {
+      "formula": "=SUM(C6:C8)",
+      "dependencies": [
+        "C6",
+        "C8"
+      ]
+    },
+    "C10": {
+      "formula": "=SUM(C11:C13)",
+      "dependencies": [
+        "C11",
+        "C13"
+      ]
+    },
+    "C15": {
+      "formula": "=SUM(C16:C18)",
+      "dependencies": [
+        "C16",
+        "C18"
+      ]
+    },
+    "C20": {
+      "formula": "=C5+C10+C15",
+      "dependencies": [
+        "C5",
+        "C10",
+        "C15"
+      ]
+    },
+    "C23": {
+      "formula": "=SUM(C24:C26)",
+      "dependencies": [
+        "C24",
+        "C26"
+      ]
+    },
+    "C28": {
+      "formula": "=SUM(C29:C31)",
+      "dependencies": [
+        "C29",
+        "C31"
+      ]
+    },
+    "C29": {
+      "formula": "=-C24*0.05",
+      "dependencies": [
+        "C24"
+      ]
+    },
+    "C30": {
+      "formula": "=-C25*0.1",
+      "dependencies": [
+        "C25"
+      ]
+    },
+    "C31": {
+      "formula": "=-C26*0.2",
+      "dependencies": [
+        "C26"
+      ]
+    },
+    "C33": {
+      "formula": "=C23+C28",
+      "dependencies": [
+        "C23",
+        "C28"
+      ]
+    },
+    "C35": {
+      "formula": "=C33+C20",
+      "dependencies": [
+        "C33",
+        "C20"
+      ]
+    },
+    "C38": {
+      "formula": "=SUM(C39:C41)",
+      "dependencies": [
+        "C39",
+        "C41"
+      ]
+    },
+    "C46": {
+      "formula": "=C38+C43+C44",
+      "dependencies": [
+        "C38",
+        "C43",
+        "C44"
+      ]
+    },
+    "C51": {
+      "formula": "=C49+C46",
+      "dependencies": [
+        "C49",
+        "C46"
+      ]
+    },
+    "C57": {
+      "formula": "=C54+C55",
+      "dependencies": [
+        "C54",
+        "C55"
+      ]
+    },
+    "C59": {
+      "formula": "=C57+C51",
+      "dependencies": [
+        "C57",
+        "C51"
+      ]
+    },
+    "C61": {
+      "formula": "=IF(C35=C59,\"Balance Sheet Balanced\",\"Not Balanced\")",
+      "dependencies": [
+        "C35",
+        "C59"
+      ]
+    }
+  },
+  "data_relationships": [
+    {
+      "source": "C6",
+      "target": "C5",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C8",
+      "target": "C5",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C11",
+      "target": "C10",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C13",
+      "target": "C10",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C16",
+      "target": "C15",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C18",
+      "target": "C15",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C5",
+      "target": "C20",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C10",
+      "target": "C20",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C15",
+      "target": "C20",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C24",
+      "target": "C23",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C26",
+      "target": "C23",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C29",
+      "target": "C28",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C31",
+      "target": "C28",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C24",
+      "target": "C29",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C25",
+      "target": "C30",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C26",
+      "target": "C31",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C23",
+      "target": "C33",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C28",
+      "target": "C33",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C33",
+      "target": "C35",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C20",
+      "target": "C35",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C39",
+      "target": "C38",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C41",
+      "target": "C38",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C38",
+      "target": "C46",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C43",
+      "target": "C46",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C44",
+      "target": "C46",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C49",
+      "target": "C51",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C46",
+      "target": "C51",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C54",
+      "target": "C57",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C55",
+      "target": "C57",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C57",
+      "target": "C59",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C51",
+      "target": "C59",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C35",
+      "target": "C61",
+      "type": "formula_dependency"
+    },
+    {
+      "source": "C59",
+      "target": "C61",
+      "type": "formula_dependency"
+    }
+  ]
+}
